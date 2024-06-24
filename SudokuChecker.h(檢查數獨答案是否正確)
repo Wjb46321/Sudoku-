@@ -1,0 +1,11 @@
+#ifndef SUDOKUCHECKER_H
+#define SUDOKUCHECKER_H
+
+#include "SudokuBoard.h"
+
+class SudokuChecker {
+public:
+bool checkSudoku(SudokuBoard& word);
+};
+
+#endif SUDOKUCHECKER_H
