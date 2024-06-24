@@ -1,0 +1,13 @@
+#ifndef SUDOKUBOARD_H
+#define SUDOKUBOARD_H
+#include
+using namespace std;
+
+class SudokuBoard {
+public:
+int board[9][9];
+SudokuBoard();
+void printBoard();
+};
+
+#endif SUDOKUBOARD_H
