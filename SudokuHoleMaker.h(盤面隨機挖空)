@@ -1,0 +1,11 @@
+#ifndef SUDOKUHOLEMAKER_H
+#define SUDOKUHOLEMAKER_H
+
+#include "SudokuBoard.h"
+
+class SudokuHoleMaker {
+public:
+void makeHoles(SudokuBoard& word);
+};
+
+#endif SUDOKUHOLEMAKER_H
