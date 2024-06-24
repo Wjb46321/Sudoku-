@@ -1,0 +1,14 @@
+#ifndef SUDOKUFILLER_H
+#define SUDOKUFILLER_H
+#include "SudokuBoard.h"
+#include
+using namespace std;
+
+class SudokuFiller:public SudokuBoard {
+public:
+void fillBoard(SudokuBoard& word);
+private:
+void fillOtherGrids(SudokuBoard& word, int countRow[9][10], int countCol[9][10], int countGe[9][10]);
+};
+
+#endif SUDOKUFILLER
